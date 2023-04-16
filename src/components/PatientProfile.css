@@ -1,0 +1,47 @@
+.profile {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.profile h2 {
+  margin-top: 0;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.profile-field {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.profile-field label {
+  flex-basis: 150px;
+  font-weight: bold;
+}
+
+.profile-value {
+  flex-grow: 1;
+}
+
+.logout-button {
+  margin-top: 2rem;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #563dff;
+}
